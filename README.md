@@ -41,17 +41,6 @@
 
 ## Cookie Syncの流れ
 ---
-```plantuml
-@startuml
-sequenceDiagram
-participant cook as コック
-participant kitchenware1 as フライパン
-    cook ->>+ kitchenware1: ハンバーグを焼く
-    kitchenware1 -->>- cook : 焼き上がり
-@enduml
-```
-
-
 
 ＊注意: Cookie Syncを行うためには3rd partyのCookieが事前に作成されている必要がある
 
